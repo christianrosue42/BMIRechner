@@ -18,5 +18,3 @@ function calculateBMI(weight, height) {
     const bmi = Math.round(weight / (heightInMeters * heightInMeters));
     return bmi;
 }
-// brauchen wir erst einmal nicht
-//module.exports = { calculateBMI, updateUI };
